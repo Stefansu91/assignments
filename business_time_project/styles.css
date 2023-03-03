@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+}
+
+#game-title {
+    background-color: rgb(202, 67, 5);
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    grid-column: 3 / 11;
+}
+
+nav {
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+    margin: 20px;
+    height: 75px;
+    width: 200px;
+    grid-column: 4 / 5;
+}
+
+#welcome-message {
+    text-align: center;
+    grid-column: 4 / 10;
+    margin: 10px;
+}
+
+#game-description {
+    grid-column: 4 / 10;
+    text-align: center;
+}
+
+#your-story {
+    grid-column: 4 / 10;
+    grid-row: 4;
+    padding: 40px;
+    text-align: center;
+}
+
+#economy {
+    grid-column: 3 / 7;
+    text-align: justify;
+    padding: 40px;
+}
+
+.trade-symbol {
+    grid-column: 9;
+    grid-row: 6;
+    padding: 50px;
+    margin: 50px;
+}
+
+#resources {
+    grid-column: 3 / 11;
+    text-align: center;
+    padding: 40px;
+}
+
+#progression {
+    grid-column: 3 / 8;
+    text-align: justify;
+    padding: 40px;
+}
+
+.exponential-progression {
+    grid-column: 9;
+    grid-row: 8;
+    padding: 50px;
+    width: 300px;
+}
+
+#goal {
+    grid-column: 6 / 11;
+    text-align: justify;
+    padding: 40px;
+}
+
+#side-border-l {
+    background-color: rgb(54, 54, 54);
+    grid-column: 1 / 2;
+    grid-row: 1 / 10;
+}
+
+#side-border-r {
+    background-color: rgb(54, 54, 54);
+    grid-column: 12 / 13;
+    grid-row: 1 / 10;
+}
