@@ -3,7 +3,11 @@
 const form = document["addItem"]
 
 form.addEventListener("submit", function(event){
+<<<<<<< HEAD
     event.preventDefault()                                     // prevents refresh
+=======
+    event.preventDefault()
+>>>>>>> origin/main
 
     const title = form.title.value
     form.title.value = ""
