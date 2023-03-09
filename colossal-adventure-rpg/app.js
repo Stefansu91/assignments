@@ -71,7 +71,6 @@ let thebanHP = 5
 let thebanStr = 10
 let thebanDef = 1
 
-const badGuysPower = Math.floor(Math.random() * (8 - 3) + 2);
 
 /*  Work on this...
 
